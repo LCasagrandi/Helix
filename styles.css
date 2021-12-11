@@ -103,9 +103,20 @@ body{
 
   .content{
     position: absolute;
-    top: 97vh;
+    top: 98.9vh;
     background: rgb(68,0,255);
     background: linear-gradient(180deg, rgba(68,0,255,1) 0%, rgba(75,34,192,1) 42%, rgba(111,34,195,1) 100%);
-    width: 100vw;
-    height: 100%;
+    width: 100%;
+    height: 180%;
+  }
+
+  .player-div{
+      position: absolute;
+      left: 25vw;
+      top: 25vh;
+      background: rgb(68,0,255);
+    background: linear-gradient(180deg, rgba(68,0,255,1) 0%, rgba(75,34,192,1) 42%, rgba(111,34,195,1) 100%);
+      padding: 5px;
+      width: 640px;
+      height: 360px;
   }
