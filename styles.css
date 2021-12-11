@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #f8f9ff;
+}
+
+.navbar{ 
+    align-content: center center;
+    width: 100%;
+    height: 10%;
+}
+
+.nav-itens{
+    width: auto;
+    height: auto;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.inicio{
+    padding-top: 2.2vh;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    font-size: 18;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    color: #1e1e1e;
+}
+
+.sobre{
+    padding-top: 2.5vh;
+    font-size: 16;
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: #1e1e1e;
+}
+
+.logo{
+    float: left;
+    padding: 5px;
+    width: 10vw;
+    height: 6vh;
+}
+
+.waves{
+    position: absolute;
+    bottom: 0;
+}
+
+.wrapper{
+    background-color: blueviolet;
+    width: fit-content;
+    height: fit-content;
+}
+
+.text-box{
+    position: absolute;
+    top: 40vh;
+    left: 50vh;
+    height: auto;
+    width: auto;
+    background-color: mediumturquoise;
+}
+
+.descubra {
+    color: #1e1e1e;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    font-weight: 700;
+    left: 13vw;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: -5vh;
+    width: 350px;
+  }
+
+  @keyframes bounce {
+    0%   {top: 20vh;}
+    33%  {top: 25vh;}
+    100% {top: 20vh;}
+  }
+
+  .flecha{
+      position: absolute;
+      top: 20vh;
+      left: 25vw;
+      width: max-content;
+      height: max-content;
+      animation-name: bounce;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+
+  .content{
+    position: absolute;
+    top: 97vh;
+    background: rgb(68,0,255);
+    background: linear-gradient(180deg, rgba(68,0,255,1) 0%, rgba(75,34,192,1) 42%, rgba(111,34,195,1) 100%);
+    width: 100vw;
+    height: 100%;
+  }
